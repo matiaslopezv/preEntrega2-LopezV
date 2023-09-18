@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(180deg,#fff 10%,#3df4,rgb(64, 228, 196));
+}
+/* #0078c8, #c8143c, #000000, #fae100, #32b432 */
+img{
+    max-width: 100%;
+}
+.cabecera{
+    background:linear-gradient(90deg, white 19%, gray);
+    border-radius: 5px;
+}
+
+.logo-principal{
+    width:150px
+}
+
+@media (max-width:425px){
+    .screen-s{
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecera{
+        background: linear-gradient(180deg, white 40%, gray);
+    }
+}
+
+.carousel-item img{
+    height: 40vh;
+}
+
+@media (min-width:768px){
+    #carouselExampleFade{
+        width:95%
+    }
+}
+
+@media (min-width:1024px){
+    .carousel-item img{
+        height: 70vh;
+    }
+    #carouselExampleFade{
+        width: 75%;
+    }
+}
+
+.texto-main{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7rem;
+}
+.container-cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card-img-top{
+    width: 300px;
+    height: 50%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+}
+
+.card-body p{
+    font-family: 'Croissant One', cursive;
+    font-size: 1.2rem;
+}
+
+@media (max-width:425px){
+    .container-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (min-width:426px){
+    .container-cards{
+        gap:15px;
+    }
+}
+
+.winners img{
+    width: 200px;
+    border-radius:50%;
+    border: solid 1px;
+}
+
+
+.winners{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media (min-width:426px){
+    .winners{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:767px){
+    .winners{
+        display: none;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bi{
+    font-size: 3rem;
+    color: black;
+}
+.bi-instagram{
+    margin-left: 10px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sponsors img{
+    width: 100px;
+}
+
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Croissant One', cursive; */

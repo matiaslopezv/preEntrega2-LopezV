@@ -118,11 +118,8 @@ footer{
     justify-content: space-between;
 }
 .bi{
-    font-size: 3rem;
+    font-size: 1.3rem;
     color: black;
-}
-.bi-instagram{
-    margin-left: 10px;
 }
 
 .redes-sociales{
@@ -132,7 +129,7 @@ footer{
 }
 
 .sponsors img{
-    width: 100px;
+    width: 80px;
 }
 
 .sponsors{
@@ -143,12 +140,33 @@ footer{
     gap: 10px;
 }
 
-
 /* font-family: 'Bebas Neue', sans-serif;
 font-family: 'Croissant One', cursive; */
-/*Estilos Ganadores.html*/
+
+/*Estilos ganadores.html*/
 
 .title-carrera{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
+}
+
+/* Estilos historia.html */
+.bi-bicycle{
+    font-size: 2.3rem;
+}
+
+.bi-feather{
+    font-size: 2rem;
+}
+
+.historia-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+}
+.historia-texto{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+figure img{
+    width:200px;
 }

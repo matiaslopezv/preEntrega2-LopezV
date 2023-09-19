@@ -13,6 +13,9 @@ img{
 .logo-principal{
     width:150px
 }
+.nav-link{
+    color: rgb(0, 0, 0);
+}
 
 @media (max-width:425px){
     .screen-s{
@@ -98,6 +101,9 @@ img{
     flex-direction: column;
     cursor: pointer;
 }
+#nombres-ganadores{
+    display: none;
+}
 
 @media (min-width:426px){
     .winners{
@@ -169,4 +175,19 @@ font-family: 'Croissant One', cursive; */
 
 figure img{
     width:200px;
+}
+
+.figure-caption{
+    color:black;
+    font-weight: bold;
+}
+
+.grandes-ganadores img{
+    height: 30vh;
+}
+
+.grandes-ganadores{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }

@@ -1,193 +1,261 @@
-body{
-    background: linear-gradient(180deg,#fff 10%,#3df4,rgb(64, 228, 196));
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.logo-principal {
+  width: 150px;
+}
+
+body {
+  background: linear-gradient(180deg, #fff 10%, rgba(51, 221, 255, 0.2666666667), rgb(64, 228, 196));
+}
+
 /* #0078c8, #c8143c, #000000, #fae100, #32b432 */
-img{
-    max-width: 100%;
-}
-.cabecera{
-    background:linear-gradient(90deg, white 19%, gray);
-    border-radius: 5px;
+img {
+  max-width: 100%;
 }
 
-.logo-principal{
-    width:150px
-}
-.nav-link{
-    color: rgb(0, 0, 0);
+.cabecera {
+  background: linear-gradient(90deg, white 19%, gray);
+  border-radius: 5px;
 }
 
-@media (max-width:425px){
-    .screen-s{
-        display: flex;
-        flex-direction: column;
-    }
-    .cabecera{
-        background: linear-gradient(180deg, white 40%, gray);
-    }
+.logo-principal {
+  width: 150px;
 }
 
-.carousel-item img{
-    height: 40vh;
+.nav-link {
+  color: rgb(0, 0, 0);
 }
 
-@media (min-width:768px){
-    #carouselExampleFade{
-        width:95%
-    }
-}
-
-@media (min-width:1024px){
-    .carousel-item img{
-        height: 70vh;
-    }
-    #carouselExampleFade{
-        width: 75%;
-    }
-}
-
-.texto-main{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.7rem;
-}
-.container-cards{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.card-img-top{
-    width: 300px;
-    height: 50%;
-}
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-body{
-    display: flex;
-    align-items: center;
-}
-
-.card-body p{
-    font-family: 'Croissant One', cursive;
-    font-size: 1.2rem;
-}
-
-@media (max-width:425px){
-    .container-cards{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-}
-@media (min-width:426px){
-    .container-cards{
-        gap:15px;
-    }
-}
-
-.winners img{
-    width: 200px;
-    border-radius:50%;
-    border: solid 1px;
-}
-
-
-.winners{
+@media (max-width: 425px) {
+  .screen-s {
     display: flex;
     flex-direction: column;
-    cursor: pointer;
+  }
+  .cabecera {
+    background: linear-gradient(180deg, white 40%, gray);
+  }
 }
-#nombres-ganadores{
-    display: none;
-}
-
-@media (min-width:426px){
-    .winners{
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+.carousel-item img {
+  height: 40vh;
 }
 
-@media (max-width:767px){
-    .winners{
-        display: none;
-    }
+@media (min-width: 768px) {
+  #carouselExampleFade {
+    width: 95%;
+  }
+}
+@media (min-width: 1024px) {
+  .carousel-item img {
+    height: 70vh;
+  }
+  #carouselExampleFade {
+    width: 75%;
+  }
+}
+.texto-main {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.7rem;
 }
 
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.bi{
-    font-size: 1.3rem;
-    color: black;
+.container-cards {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.redes-sociales{
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.card-img-top {
+  width: 300px;
+  height: 50%;
 }
 
-.sponsors img{
-    width: 80px;
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sponsors{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-body p {
+  font-family: "Croissant One", cursive;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 425px) {
+  .container-cards {
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+}
+@media (min-width: 426px) {
+  .container-cards {
+    gap: 15px;
+  }
+}
+.winners img {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px;
+}
+
+.winners {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#nombres-ganadores {
+  display: none;
+}
+
+@media (min-width: 426px) {
+  .winners {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 767px) {
+  .winners {
+    display: none;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bi {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.sponsors img {
+  width: 80px;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
 }
 
 /* font-family: 'Bebas Neue', sans-serif;
 font-family: 'Croissant One', cursive; */
-
 /*Estilos ganadores.html*/
-
-.title-carrera{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+.title-carrera {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
 }
 
 /* Estilos historia.html */
-.bi-bicycle{
-    font-size: 2.3rem;
+.bi-bicycle {
+  font-size: 2.3rem;
 }
 
-.bi-feather{
-    font-size: 2rem;
+.bi-feather {
+  font-size: 2rem;
 }
 
-.historia-title{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.8rem;
-}
-.historia-texto{
-    font-family: 'Bebas Neue', sans-serif;
+.historia-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.8rem;
 }
 
-figure img{
-    width:200px;
+.historia-texto {
+  font-family: "Bebas Neue", sans-serif;
 }
 
-.figure-caption{
-    color:black;
-    font-weight: bold;
+figure img {
+  width: 200px;
 }
 
-.grandes-ganadores img{
-    height: 30vh;
+.figure-caption {
+  color: black;
+  font-weight: bold;
 }
 
-.grandes-ganadores{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+.grandes-ganadores img {
+  height: 30vh;
 }
+
+.grandes-ganadores {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#galeria {
+  display: grid;
+  grid-template-areas: "foto1 foto1 foto2 foto2 foto2" "foto3 foto3 foto2 foto2 foto2" "foto3 foto3 foto2 foto2 foto2" "foto4 foto5 foto6 foto7 foto8";
+  gap: 5px;
+  margin: 30px 0;
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8 {
+  max-width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foto1 {
+  background-image: url(../images/galeria/6.jpg);
+  grid-area: foto1;
+}
+
+.foto2 {
+  background-image: url(../images/galeria/R.jpeg);
+  grid-area: foto2;
+  height: 100%;
+}
+
+.foto3 {
+  background-image: url(../images/galeria/5.jpg);
+  grid-area: foto3;
+  height: 400px;
+}
+
+.foto4 {
+  background-image: url(../images/galeria/4.jpeg);
+  grid-area: foto4;
+}
+
+.foto5 {
+  background-image: url(../images/galeria/3.jpeg);
+  grid-area: foto5;
+}
+
+.foto6 {
+  background-image: url(../images/galeria/1.jpg);
+  grid-area: foto6;
+}
+
+.foto7 {
+  background-image: url(../images/galeria/2.png);
+  grid-area: foto7;
+}
+
+.foto8 {
+  background-image: url(../images/galeria/8.jpg);
+  grid-area: foto8;
+}
+
+/*# sourceMappingURL=styles.css.map */

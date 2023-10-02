@@ -186,6 +186,15 @@ figure img {
   width: 200px;
 }
 
+.figure img {
+  width: 200px;
+  transition: opacity 0.3s ease;
+}
+
+.figure img:hover {
+  opacity: 0.3;
+}
+
 .figure-caption {
   color: black;
   font-weight: bold;
@@ -258,10 +267,21 @@ figure img {
   grid-area: foto8;
 }
 
+.foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover, .foto5:hover, .foto6:hover, .foto7:hover, .foto8:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
 .video {
   gap: 25px;
 }
 
+@media (min-width: 425px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .rrss {
   gap: 25px;
 }

@@ -258,4 +258,12 @@ figure img {
   grid-area: foto8;
 }
 
+.video {
+  gap: 25px;
+}
+
+.rrss {
+  gap: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,8 @@
 * {
-
     margin: 0;
-  
     padding: 0;
-  
     box-sizing: border-box;
-  
-  }
+}
 .logo-principal{
     width: 150px;
 }
@@ -266,7 +262,10 @@ figure img{
     background-image: url(../images/galeria/8.jpg);
     grid-area: foto8;
 }
-
 .video{
-
+    gap:25px;
+}
+// FOOTER
+.rrss{
+    gap:25px;
 }

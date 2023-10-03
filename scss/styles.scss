@@ -286,6 +286,14 @@ figure img{
         flex-direction: column;
     }
 }
+@media(max-width:768px){
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 // FOOTER
 .rrss{
     gap:24px;

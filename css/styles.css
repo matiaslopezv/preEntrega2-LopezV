@@ -288,6 +288,16 @@ figure img {
     flex-direction: column;
   }
 }
+@media (min-width: 769px) {
+  .video {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.formulario {
+  width: 80%;
+}
+
 .rrss {
   gap: 24px;
 }

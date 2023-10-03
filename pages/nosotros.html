@@ -47,33 +47,32 @@
         </div>
     </nav>
 
-    <main class="container">
         <h1>Nosotros</h1>
         <p class="uci-text">La Unión Ciclista Internacional (UCI) (en francés: Union Cycliste Internationale) es la asociación de federaciones nacionales de ciclismo. Fue creada el 14 de abril de 1900 en París, integrando inicialmente a las federaciones de Francia, Bélgica, Italia, Suiza y Estados Unidos de América, siendo su primer presidente el belga Emile de Beukelaer.</p>
-    </main>
 
-    <form id="form" class="container d-flex flex-column justify-content-center align-items-center">
-        <h2>Ponte en contacto</h2>
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre">
-        </div>
-        <div>
-            <label for="mail">E-mail</label>
-            <input type="email" id="mail">
-        </div>
-        <div>
-            <label for="pais">Pais</label>
-            <input type="text" id="pais">
-        </div>
-        <div>
-            <label for="comentario">Dejanos tu comentario</label>
-            <textarea id="comentario" cols="30" rows="10"></textarea>
-        </div>
-    </form>
-    
-
-
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        
+        <form id="form" class="formulario container d-flex flex-column">
+            <h2 class="text-center">Ponte en contacto</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+                <label for="mail">E-mail</label>
+                <input type="email" class="form-control" id="mail">
+            </div>
+            <div class="form-group">
+                <label for="pais">País</label>
+                <input type="text" class="form-control" id="pais">
+            </div>
+            <div class="form-group">
+                <label for="comentario">Déjanos tu comentario</label>
+                <textarea class="form-control" id="comentario" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
 
     <footer class="d-flex justify-content-evenly">
         <div class="sponsors d-flex justify-content-start">

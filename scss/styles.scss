@@ -292,7 +292,17 @@ figure img{
         flex-direction: column;
     }
 }
+@media(min-width:769px){
+    .video{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
+// contacto
+.formulario{
+    width:80%;
+}
 
 // FOOTER
 .rrss{
